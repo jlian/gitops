@@ -5,7 +5,7 @@ metadata:
   name: e4k-repo
   namespace: default
 spec:
-  interval: 1m
+  interval: 1m0s
   type: oci
   url: oci://e4kpreview.azurecr.io/helm
 ---
@@ -23,4 +23,4 @@ spec:
         kind: HelmRepository
         name: e4k-repo
       version: 0.1.0-amd64
-  interval: 1m
+  interval: 1m0s
