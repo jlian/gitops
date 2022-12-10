@@ -16,6 +16,7 @@ metadata:
   namespace: flux-system
 spec:
   releaseName: e4k
+  targetNamespace: default
   chart:
     spec:
       chart: az-e4k
