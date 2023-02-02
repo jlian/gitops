@@ -23,5 +23,5 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: e4k-repo
-      version: 0.1.0-amd64
+      version: 0.2.0
   interval: 1m0s
